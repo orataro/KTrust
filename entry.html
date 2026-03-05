@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="ja">
+    <head>
+        <meta charset="UTF-8">
+        <title>学校応募フォーム</title>
+        <link rel="stylesheet" href="dddddddddddddd.css">
+        <link rel="stylesheet" href="bbbbbbbbbbb.css">
+        </head>
+        <body>
+            <h1 class="form-title"> 学校応募フォーム </h1>
+
+            <form class="entry-form" id="entryForm" action="thanks.html">
+                <label>氏名</label>
+                <input type="text" placeholder="例 : 大原 太郎">
+
+                <label>フリガナ</label>
+                <input type="text" placeholder="例 : オオハラ タロウ">
+
+                <label>メールアドレス</label>
+                <input type="email" placeholder="example@mail.com">
+
+                <label>電話番号</label>
+                <input type="tel" placeholder="090-1234-5678">
+
+                <label>マイナンバー</label>
+                <input type="number" placeholder="0123 4567 8910">
+
+                <label>志望動機</label>
+                <textarea rows="6" placeholder="志望動機を入力してください"></textarea>
+
+                           <div class="terms-area">
+                <label class="terms-check">
+                    <input type="checkbox" id="agree">
+                    <span>
+                        <a href="#" id="openTerms">利用規約</a>に同意します
+                    </span>
+                </label>
+            </div>
+
+            <button type="submit" class="send-btn">送信</button>
+        </form>
+
+        <!-- 利用規約モーダル -->
+        <div class="terms-modal" id="termsModal">
+            <div class="terms-box">
+                <h2>利用規約</h2>
+                <div class="terms-text">
+                    <p>本フォームにご入力いただいた個人情報は、</p>
+                    <p>学校案内及び入学選考やSNSでの捨て垢作成に関する連絡の目的のみに使用します。</p>
+                    <p>法令に基づく場合を除き、第三者に提供することはあり得ます</p>
+                    <p>また、不正入力・いたずら応募・ネカマ・ゲイと判断した場合、</p>
+                    <P>応募を無効にさせて頂く上、法的措置を取らさせていただく場合がございます。</P>
+                </div>
+                <button id="closeTerms" class="close-btn">同意して閉じる</button>
+            </div>
+        </div>
+
+        <script src="ccccccccccccc.js"></script>
+    </body>
+</html>

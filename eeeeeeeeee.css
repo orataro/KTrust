@@ -1,0 +1,28 @@
+.thanks-box {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.thanks-box h1 {
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+.thanks-box p {
+    font-size: 18px;
+    line-height: 1.8;
+}
+
+.back-btn {
+    margin-top: 30px;
+    padding: 15px 40px;
+    background: #667eea;
+    color: white;
+    border-radius: 50px;
+    text-decoration: none;
+    font-size: 18px;
+}
